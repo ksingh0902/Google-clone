@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(68, 87, 96);
+    font-family: arial,sans-serif;
+    /* background-image:  url("./brett-ritchie-1vKTnwLMdqs-unsplash.jpg"); */  
+    /* //we can add background-colorimge // */
+}
+h1{
+ color: white;
+ font-family: Arial, sans-serif;
+ font-size:5rem;
+ font-weight: bold
+
+}
+.navbar{
+    display: flex;
+    height: 5vh;
+    justify-content: flex-end;
+    padding: 4px;
+}
+ ul{
+    padding:0px 10px;
+    cursor: pointer;
+    color: white;
+   
+ }
+
+.btn{
+color:white;
+background-color:rgb(0, 123, 255);
+    border-radius:10px;
+    border: 2px black solid;
+    cursor:pointer;
+}
+
+.container{
+
+display: flex;
+height: 70vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.input-field{
+   padding: 12px;
+   margin-top: 0px;
+     border: 4px white solid;
+     width: 35rem;
+    border-radius: 20px;
+
+}
+.flex-items{
+    display: flex;
+    height: 15vh;
+    width: 32rem;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 40px;
+
+}
+.list:hover{
+padding: 20px 25px;
+background-color: gray;
+
+} 
+
+.flex-items-2{
+    display: flex;
+    height: 7vh;
+    width: 32rem;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.item-list:hover{
+    background-color: gray;
+    transition: width 2s, height 4s;
+    padding: 20px 25px;
+    transition: width 5s;
+
+}
+    
